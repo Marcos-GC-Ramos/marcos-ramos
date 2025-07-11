@@ -13,7 +13,7 @@ export default function Home() {
           </h1>
         </div>
 
-        <img className="w-[400px] lg:w-[700px]" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/500/500.svg" alt="500 Server Error"/>
+        <img className="w-[400px] lg:w-[700px]" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/500/500.svg" alt="500 Server Error" />
       </div>
     </section>
   );

@@ -1,6 +1,7 @@
 import LightEffect from '../components/lightEffect';
 import InfoFixas from './info-fixas';
 import Sobre from './sobre';
+import Experiencia from './experiencia';
 
 export default function Portfolio() {
   return (
@@ -12,6 +13,7 @@ export default function Portfolio() {
 
           <main id="content" className='pt-24 lg:w-[52%] lg:py-24'>
             <Sobre/>
+            <Experiencia/>
           </main>
         </div>
       </div>
