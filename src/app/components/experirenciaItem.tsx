@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 
 interface ExperienceItemProps {
   period: string;
@@ -32,8 +33,8 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
         <div className="z-10 sm:col-span-6">
           <h3 className="font-medium leading-snug text-slate-200">
             <div>
-              <a
-                className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+              <Link
+                className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-sky-300 focus-visible:text-sky-300 group/link text-base"
                 href={companyUrl}
                 target="_blank"
                 rel="noreferrer noopener"
@@ -59,7 +60,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
                     </svg>
                   </span>
                 </span>
-              </a>
+              </Link>
             </div>
           </h3>
 
@@ -68,7 +69,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
           <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
             {technologies.map((tech, index) => (
               <li key={index} className="mr-1.5 mt-2">
-                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                <div className="flex items-center rounded-full bg-sky-400/10 px-3 py-1 text-xs font-medium leading-5 text-sky-300">
                   {tech}
                 </div>
               </li>

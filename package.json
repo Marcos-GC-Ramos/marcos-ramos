@@ -12,7 +12,8 @@
     "@fontsource/inter": "^5.2.6",
     "next": "15.3.5",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-scroll": "^1.9.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
