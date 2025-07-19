@@ -3,40 +3,40 @@ import Link from 'next/link';
 
 export default function Experiencia() {
     return (
-        <section id="experiencia" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Work experience">
+        <section id="experiencia" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Experiencia de trabalho">
             <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
                 <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
-                    Experience
+                    Experiencias
                 </h2>
             </div>
 
             <div>
                 <ol className="group/list">
                     <ExperienceItem
-                        period="2024 — Present"
-                        role="Senior Frontend Engineer, Accessibility"
-                        company="Klaviyo"
-                        companyUrl="https://www.klaviyo.com"
-                        description="Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility."
-                        technologies={["JavaScript", "TypeScript", "React", "Storybook"]}
+                        period="2023 — Emprego Atual"
+                        role="Desenvolvedor Front-End"
+                        company="Vint_Global Tecnologia LTDA"
+                        companyUrl="https://www.vintglobal.com.br/"
+                        description="Atuo como desenvolvedor front-end alocado pela Vint_Global, empresa terceirizada pela Secretaria de Educação do Amazonas (Seduc/AM), contribuindo na criação e manutenção de aplicações web voltadas para demandas internas da instituição. Sou responsável por implementar interfaces modernas, responsivas e acessíveis, colaborando com equipes de back-end e design para garantir soluções eficientes e intuitivas. Trabalho com foco em performance, componentização, boas práticas de código e integração com APIs."
+                        technologies={["JavaScript", "TypeScript", "React", "Next.js", "HTML & SCSS", "Tailwind", "Figma"]}
                     />
 
                     <ExperienceItem
-                        period="2024 — Present"
-                        role="Senior Frontend Engineer, Accessibility"
-                        company="Klaviyo"
-                        companyUrl="https://www.klaviyo.com"
-                        description="Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility."
-                        technologies={["JavaScript", "TypeScript", "React", "Storybook"]}
+                        period="2022 — 2024"
+                        role="Estagiário de Desenvolvimento Web"
+                        company="Secretaria de Educação (Seduc/AM)"
+                        companyUrl="https://www.seduc.am.gov.br/"
+                        description="Atuei no desenvolvimento de soluções web utilizando tecnologias como Laravel, PHP, JavaScript, Bootstrap, HTML & SCSS e MySQL. Apoiei diretamente nas atividades de front-end e back-end, contribuindo com a estruturação de sistemas, implementação de funcionalidades e melhorias em aplicações existentes. Participei da análise e correção de bugs, manutenção de código, além de colaborar com a equipe em projetos voltados para a modernização de processos internos da instituição."
+                        technologies={["Laravel", "PHP", "JavaScript", "Bootstrap", "HTML & SCSS", "MySQL"]}
                     />
 
                     <ExperienceItem
-                        period="2024 — Present"
-                        role="Senior Frontend Engineer, Accessibility"
-                        company="Klaviyo"
-                        companyUrl="https://www.klaviyo.com"
-                        description="Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility."
-                        technologies={["JavaScript", "TypeScript", "React", "Storybook"]}
+                        period="2019 — 2021"
+                        role="Jovem Aprendiz"
+                        company="Unicoba"
+                        companyUrl="https://ucbpower.com.br/"
+                        description="Iniciei minha trajetória na área de tecnologia auxiliando nos processos administrativos relacionados aos setores de Infraestrutura e Sistemas de TI. Durante esse período, tive a oportunidade de aprender sobre rotinas de suporte técnico, organização de documentação técnica, controle de ativos de TI e entender melhor o funcionamento de ambientes corporativos de tecnologia."
+                        technologies={["JavaScript", "HTML & SCSS", "Python"]}
                     />
 
                 </ol>
