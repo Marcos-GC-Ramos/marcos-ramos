@@ -22,7 +22,7 @@ export default function Experiencia() {
                     />
 
                     <ExperienceItem
-                        period="2022 — 2024"
+                        period="2022 — 2023"
                         role="Estagiário de Desenvolvimento Web"
                         company="Secretaria de Educação (Seduc/AM)"
                         companyUrl="https://www.seduc.am.gov.br/"
