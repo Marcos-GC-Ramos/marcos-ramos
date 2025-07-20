@@ -17,7 +17,7 @@ export function useScrollSpy(ids: string[], offset = 0) {
         }
       },
       {
-        rootMargin: `-${offset}px 0px -70% 0px`, // ajusta a sensibilidade
+        rootMargin: `-${offset}px 0px -70% 0px`,
         threshold: [0.1, 0.25, 0.5, 1],
       }
     );

@@ -2,6 +2,7 @@
 import InfoFixas from './info-fixas';
 import Sobre from './sobre';
 import Experiencia from './experiencia';
+import Skills from './skills';
 import Projetos from './projetos';
 import Footer from './footer';
 
@@ -16,6 +17,7 @@ export default function Portfolio() {
           <main id="content" className='pt-24 lg:w-[52%] lg:py-24 scroll-smooth'>
             <Sobre/>
             <Experiencia/>
+            <Skills />
             <Projetos />
             <Footer />
           </main>

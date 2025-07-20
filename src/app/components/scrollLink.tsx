@@ -3,7 +3,7 @@
 import { useCallback } from "react";
 
 interface ScrollLinkProps {
-  href: string; // Ex: "#sobre"
+  href: string;
   className?: string;
   children: React.ReactNode;
 }

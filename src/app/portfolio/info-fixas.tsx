@@ -5,7 +5,7 @@ import ScrollLink from "../components/scrollLink";
 import { useScrollSpy } from "../components/useScrollSpy";
 
 export default function InfoFixas() {
-  const activeId = useScrollSpy(["sobre", "experiencia", "projetos"], 100);
+  const activeId = useScrollSpy(["sobre", "experiencia", "skills", "projetos"], 100);
 
   return (
     <header className="lg:h-screen lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
@@ -51,6 +51,21 @@ export default function InfoFixas() {
                   activeId === "experiencia" ? "text-slate-200" : "text-slate-500"
                 }`}>
                   Experiência
+                </span>
+              </ScrollLink>
+            </li>
+            <li>
+              <ScrollLink
+                href="#skills"
+                className={`group flex items-center py-3 ${activeId === "skills" ? "active" : ""}`}
+              >
+                <span className={`nav-indicator mr-4 h-px transition-all group-hover:w-16 group-hover:bg-slate-200 ${
+                  activeId === "skills" ? "w-16 bg-slate-200" : "w-8 bg-slate-600"
+                }`} />
+                <span className={`nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-200 ${
+                  activeId === "skills" ? "text-slate-200" : "text-slate-500"
+                }`}>
+                  Skills
                 </span>
               </ScrollLink>
             </li>
