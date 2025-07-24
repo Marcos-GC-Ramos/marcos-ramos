@@ -41,21 +41,6 @@ export default function InfoFixas() {
             </li>
             <li>
               <ScrollLink
-                href="#experiencia"
-                className={`group flex items-center py-3 ${activeId === "experiencia" ? "active" : ""}`}
-              >
-                <span className={`nav-indicator mr-4 h-px transition-all group-hover:w-16 group-hover:bg-slate-200 ${
-                  activeId === "experiencia" ? "w-16 bg-slate-200" : "w-8 bg-slate-600"
-                }`} />
-                <span className={`nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-200 ${
-                  activeId === "experiencia" ? "text-slate-200" : "text-slate-500"
-                }`}>
-                  Experiência
-                </span>
-              </ScrollLink>
-            </li>
-            <li>
-              <ScrollLink
                 href="#skills"
                 className={`group flex items-center py-3 ${activeId === "skills" ? "active" : ""}`}
               >
@@ -71,6 +56,21 @@ export default function InfoFixas() {
             </li>
             <li>
               <ScrollLink
+                href="#experiencia"
+                className={`group flex items-center py-3 ${activeId === "experiencia" ? "active" : ""}`}
+              >
+                <span className={`nav-indicator mr-4 h-px transition-all group-hover:w-16 group-hover:bg-slate-200 ${
+                  activeId === "experiencia" ? "w-16 bg-slate-200" : "w-8 bg-slate-600"
+                }`} />
+                <span className={`nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-200 ${
+                  activeId === "experiencia" ? "text-slate-200" : "text-slate-500"
+                }`}>
+                  Experiência
+                </span>
+              </ScrollLink>
+            </li>
+            {/* <li>
+              <ScrollLink
                 href="#projetos"
                 className={`group flex items-center py-3 ${activeId === "projetos" ? "active" : ""}`}
               >
@@ -83,7 +83,7 @@ export default function InfoFixas() {
                   Projetos
                 </span>
               </ScrollLink>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>

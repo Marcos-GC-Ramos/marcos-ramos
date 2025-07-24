@@ -1,20 +1,28 @@
+// import LightEffect from '../components/lightEffect'; ainda nao esta pronto
+import InfoFixas from './portfolio/info-fixas';
+import Sobre from './portfolio/sobre';
+import Experiencia from './portfolio/experiencia';
+import Skills from './portfolio/skills';
+// import Projetos from './portfolio/projetos'; ainda nao esta pronto
+import Footer from './portfolio/footer';
+
 export default function Home() {
   return (
-    <section className="bg-white w-full h-screen flex items-center justify-center">
-      <div className="w-full max-w-screen-xl px-8 py-16 flex flex-col items-center lg:gap-4 lg:flex-row lg:items-center lg:justify-between lg:py-24">
-        
-        <div className="max-w-2xl text-center lg:text-left">
-          <p className="text-lg text-blue-500 font-bold">
-            500 Internal Error
-          </p>
-          
-          <h1 className="mb-[10px] text-4xl font-extrabold tracking-tight text-gray-900">
-            Whoops! That page doesn’t exist.
-          </h1>
-        </div>
+    <> 
+      {/* <LightEffect/> */}
+      <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
+        <div className="lg:flex lg:justify-between lg:gap-4">
+          <InfoFixas/>
 
-        <img className="w-[400px] lg:w-[700px]" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/500/500.svg" alt="500 Server Error" />
+          <main id="content" className='pt-24 lg:w-[52%] lg:py-24 scroll-smooth'>
+            <Sobre/>
+            <Skills />
+            <Experiencia/>
+            {/* <Projetos /> */}
+            <Footer />
+          </main>
+        </div>
       </div>
-    </section>
+      </>
   );
 }
