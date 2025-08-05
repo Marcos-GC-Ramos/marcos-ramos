@@ -12,3 +12,7 @@ html, body {
   color: var(--foreground);
   font-family: 'Inter' !important;
 }
+
+[data-spline="badge"] {
+  display: none !important;
+}
