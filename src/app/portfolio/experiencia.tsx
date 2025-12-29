@@ -14,10 +14,10 @@ export default function Experiencia() {
                 <ol className="group/list">
                     <ExperienceItem
                         period="2023 — Emprego Atual"
-                        role="Desenvolvedor Front-End"
+                        role="Desenvolvedor Junior"
                         company="Vint_Global Tecnologia LTDA"
                         companyUrl="https://www.vintglobal.com.br/"
-                        description="Atuo como desenvolvedor front-end alocado pela Vint_Global, empresa terceirizada pela Secretaria de Educação do Amazonas (Seduc/AM), contribuindo na criação e manutenção de aplicações web voltadas para demandas internas da instituição. Sou responsável por implementar interfaces modernas, responsivas e acessíveis, colaborando com equipes de back-end e design para garantir soluções eficientes e intuitivas. Trabalho com foco em performance, componentização, boas práticas de código e integração com APIs."
+                        description="Atuo como desenvolvedor alocado pela Vint_Global, empresa terceirizada pela Secretaria de Educação do Amazonas (Seduc/AM), contribuindo na criação e manutenção de aplicações web voltadas para demandas internas da instituição. Sou responsável por implementar interfaces modernas, responsivas e acessíveis, colaborando com equipes de back-end e design para garantir soluções eficientes e intuitivas. Trabalho com foco em performance, componentização, boas práticas de código e integração com APIs."
                         technologies={["JavaScript", "TypeScript", "React", "Next.js", "HTML", "CSS", "Tailwind", "Figma", "PHP", "Laravel"]}
                     />
 
@@ -26,7 +26,7 @@ export default function Experiencia() {
                         role="Estagiário de Desenvolvimento Web"
                         company="Secretaria de Educação (Seduc/AM)"
                         companyUrl="https://www.seduc.am.gov.br/"
-                        description="Atuei no desenvolvimento de soluções web utilizando tecnologias como Laravel, PHP, JavaScript, Bootstrap, HTML & SCSS e MySQL. Apoiei diretamente nas atividades de front-end e back-end, contribuindo com a estruturação de sistemas, implementação de funcionalidades e melhorias em aplicações existentes. Participei da análise e correção de bugs, manutenção de código, além de colaborar com a equipe em projetos voltados para a modernização de processos internos da instituição."
+                        description="Atuei no desenvolvimento de soluções web utilizando tecnologias como Laravel, PHP, JavaScript, Bootstrap, HTML, CSS e MySQL. Apoiei diretamente nas atividades de front-end e back-end, contribuindo com a estruturação de sistemas, implementação de funcionalidades e melhorias em aplicações existentes. Participei da análise e correção de bugs, manutenção de código, além de colaborar com a equipe em projetos voltados para a modernização de processos internos da instituição."
                         technologies={["Laravel", "PHP", "JavaScript", "Bootstrap", "HTML", "CSS", "MySQL"]}
                     />
 

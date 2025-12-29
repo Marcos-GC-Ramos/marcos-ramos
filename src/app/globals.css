@@ -7,12 +7,87 @@
 }
 
 html, body {
-  height: 100vh;
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Inter' !important;
+  font-family: 'Inter' !important; 
+}
+
+body{
+  overflow: hidden;
+}
+
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 9999;
+}
+
+.half-loader {
+  width: 50%;
+  height: 100%;
+  background-color: #111;
+  transition: transform 1.5s ease-in-out;
+}
+
+.left-loader {
+  transform-origin: left;
+}
+
+.right-loader {
+  transform-origin: right;
+}
+
+.loader-hidden .left-loader {
+  transform: translateX(-100%);
+}
+
+.loader-hidden .right-loader {
+  transform: translateX(100%);
+}
+
+.hidden-content {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.show-content {
+  opacity: 1;
+  transition: opacity 1s ease;
 }
 
 [data-spline="badge"] {
   display: none !important;
+}
+
+
+body {
+  --sb-track-color: #0f172a;
+  --sb-thumb-color: #62748e80;
+  --sb-size: 3px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 3px;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
 }

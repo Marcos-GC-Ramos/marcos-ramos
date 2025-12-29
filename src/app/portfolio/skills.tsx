@@ -23,7 +23,7 @@ export default function Skills() {
 
                     <SkillsItem
                         titulo="Ferramentas e Plataformas"
-                        technologies={["Git", "GitHub", "GitLab", "Vercel", "Figma", "Neon", "Render"]}
+                        technologies={["Git", "GitHub", "GitLab", "Vercel", "Figma", "Neon", "Render", "Docker"]}
                     />
                 </ol>
             </div>
