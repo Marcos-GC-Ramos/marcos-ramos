@@ -14,7 +14,7 @@ export default function InfoFixas() {
           <Link href="/">Marcos Ramos</Link>
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          Desenvolvedor Front End
+          Desenvolvedor Full Stack
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
           Desenvolvo interfaces web acessíveis, priorizando a usabilidade e a performance.

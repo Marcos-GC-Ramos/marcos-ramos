@@ -54,16 +54,6 @@ export default function Footer() {
         >
             Vercel
         </Link>
-        . Todo o texto é composto na fonte{' '}
-        <Link
-          href="https://rsms.me/inter/"
-          target="_blank"
-          rel="noreferrer noopener"
-          aria-label="Inter (abre em uma nova aba)"
-          className="font-medium text-slate-400 hover:text-sky-300 focus-visible:text-sky-300"
-        >
-            Inter
-        </Link>
         .
       </p>
     </footer>
