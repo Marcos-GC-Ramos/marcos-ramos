@@ -7,8 +7,8 @@ export default function Sobre() {
         
         <div>
             <p className="mb-4">Sou um desenvolvedor apaixonado por criar interfaces de usuário acessíveis, onde design inteligente encontra engenharia sólida. Tenho um olhar atento para detalhes e me especializo em transformar ideias em experiências digitais elegantes, intuitivas e de alto desempenho. Meu trabalho ganha vida na interseção entre design e desenvolvimento, onde estética, funcionalidade e usabilidade caminham lado a lado.</p>
-            <p className="mb-4">Atualmente, atuo como desenvolvedor front-end na Secretaria de Educação do Amazonas (Seduc/AM), onde contribuo para a criação e manutenção de componentes de interface que impulsionam os sistemas da secretaria. Meu foco está em desenvolver soluções intuitivas, acessíveis e sustentáveis, que otimizam processos internos e melhoram a experiência dos usuários em plataformas voltadas à gestão educacional.</p>
-            <p>No meu tempo livre, estou geralmente em busca de novas inspirações para minhas criações, estudando e revisando tecnologias de front-end e simplesmente me divertindo jogando com os meus amigos.</p>
+            <p className="mb-4">Atualmente, atuo como desenvolvedor full stack na Secretaria de Educação do Amazonas (Seduc/AM), contribuindo para a criação e manutenção de componentes de interface que impulsionam os sistemas da secretaria. Meu foco está em desenvolver soluções intuitivas, acessíveis e sustentáveis, que otimizam processos internos e melhoram a experiência dos usuários.</p>
+            <p>Além do código no meu tempo livre, estou sempre em busca de novas inspirações, estudando e revisando tecnologias de front-end e simplesmente me divertindo jogando com os meus amigos.</p>
         </div>
     </section>
   );

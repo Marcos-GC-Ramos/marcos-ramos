@@ -33,7 +33,6 @@ export default function Home() {
 
   return (
     <> 
-      {/* Renderiza só enquanto for preciso */}
       {showLoader && (
         <div className={loading ? "" : "loader-hidden"}>
           <Loader />
@@ -49,12 +48,6 @@ export default function Home() {
             <Skills />
             <Experiencia/>
             <Footer />
-            <input 
-              type="file" 
-              accept="image/*" 
-              capture="environment"
-              className="bg-white"
-            />
           </main>
         </div>
       </div>

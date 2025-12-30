@@ -18,7 +18,7 @@ export default function Experiencia() {
                         company="Vint_Global Tecnologia LTDA"
                         companyUrl="https://www.vintglobal.com.br/"
                         description="Atuo como desenvolvedor alocado pela Vint_Global, empresa terceirizada pela Secretaria de Educação do Amazonas (Seduc/AM), contribuindo na criação e manutenção de aplicações web voltadas para demandas internas da instituição. Sou responsável por implementar interfaces modernas, responsivas e acessíveis, colaborando com equipes de back-end e design para garantir soluções eficientes e intuitivas. Trabalho com foco em performance, componentização, boas práticas de código e integração com APIs."
-                        technologies={["JavaScript", "TypeScript", "React", "Next.js", "HTML", "CSS", "Tailwind", "Figma", "PHP", "Laravel"]}
+                        technologies={["JavaScript", "TypeScript", "React", "Next.js", "HTML", "CSS", "Tailwind", "Figma", "PHP", "Laravel", "Docker", "Node.js"]}
                     />
 
                     <ExperienceItem
@@ -36,7 +36,7 @@ export default function Experiencia() {
                         company="Unicoba"
                         companyUrl="https://ucbpower.com.br/"
                         description="Iniciei minha trajetória na área de tecnologia auxiliando nos processos administrativos relacionados aos setores de Infraestrutura e Sistemas de TI. Durante esse período, tive a oportunidade de aprender sobre rotinas de suporte técnico, organização de documentação técnica, controle de ativos de TI e entender melhor o funcionamento de ambientes corporativos de tecnologia."
-                        technologies={["JavaScript", "HTML", "CSS", "Python"]}
+                        technologies={["JavaScript", "HTML", "CSS"]}
                     />
                 </ol>
 

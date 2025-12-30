@@ -13,7 +13,7 @@ export default function Skills() {
                 <ol className="group/list">
                     <SkillsItem
                         titulo="Linguagens de Programação"
-                        technologies={["JavaScript", "TypeScript", "HTML", "CSS", "PHP", "Python"]}
+                        technologies={["JavaScript", "TypeScript", "HTML", "CSS", "PHP"]}
                     />
 
                     <SkillsItem
